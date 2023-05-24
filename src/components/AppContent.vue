@@ -6,7 +6,9 @@ export default {
 
 <template>
     <div class="container">
-        contenuto
+        <div class="content">
+            --> QUI VA IL CONTENUTO
+        </div>
     </div>
 </template>
 
@@ -15,5 +17,12 @@ export default {
     min-height: 130px;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
 }
 </style>
