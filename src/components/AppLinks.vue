@@ -13,7 +13,7 @@ export default {
 <style scoped>
 .container {
     min-height: 370px;
-    background-color: gray;
+    background-image: url(../assets/img/footer-bg.jpg);
     color: white;
 }
 </style>
