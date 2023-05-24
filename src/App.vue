@@ -1,10 +1,15 @@
 <script>
+import AppHeader from './components/AppHeader.vue'
+
+export default {
+  components: {
+    AppHeader
+  }
+}
 </script>
 
 <template>
-  <div>
-
-  </div>
+  <AppHeader />
 </template>
 
 <style scoped></style>
