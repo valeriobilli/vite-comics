@@ -1,11 +1,14 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppContent from './components/AppContent.vue'
+import AppMainNavbar from './components/AppMainNavbar.vue'
+
 
 export default {
   components: {
     AppHeader,
-    AppContent
+    AppContent,
+    AppMainNavbar
   }
 }
 </script>
@@ -13,6 +16,7 @@ export default {
 <template>
   <AppHeader />
   <AppContent />
+  <AppMainNavbar />
 </template>
 
 <style scoped></style>
