@@ -25,4 +25,4 @@ export default {
   <AppFooter />
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
