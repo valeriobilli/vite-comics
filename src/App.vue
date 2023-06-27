@@ -12,7 +12,7 @@ export default {
     AppContent,
     AppMainNavbar,
     AppLinks,
-    AppFooter
+    AppFooter,
   }
 }
 </script>

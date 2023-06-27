@@ -30,21 +30,12 @@ export default {
             <img src="../assets/img/dc-logo.png" alt="">
         </div>
         <div class="navbar">
-            <a href="">CHARACTERS</a>
-            <a href="">COMICS</a>
-            <a href="">MOVIES</a>
-            <a href="">TV</a>
-            <a href="">GAMES</a>
-            <a href="">COLLECTIBLES</a>
-            <a href="">VIDEOS</a>
-            <a href="">FANS</a>
-            <a href="">NEWS</a>
-            <a href="">SHOP</a>
+            <a v-for="link in navLinks">{{ link }}</a>
         </div>
     </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 header {
     height: 120px;
     background-color: white;
