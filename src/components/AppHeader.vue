@@ -1,9 +1,27 @@
 <script>
+import { CompilerDeprecationTypes } from '@vue/compiler-core';
+
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
+
+    data() {
+        return {
+            navLinks: [
+                "CHARACTERS",
+                "COMICS",
+                "MOVIES",
+                "TV",
+                "GAMES",
+                "COLLECTIBLES",
+                "VIDEOS",
+                "FANS",
+                "NEWS",
+                "SHOP"
+            ]
+        }
+
+    }
 }
-
-
 </script>
 
 <template>
